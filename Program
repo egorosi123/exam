@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <locale.h>
+
+main()
+{
+    setlocale(0, "Russian");
+    int x;
+    float y;
+    printf("Введите число x\n");
+    scanf("%d", &x);
+    y=pow(x, 2)+3;
+    printf("Выражение y=%f", y);
+    getchar();
+}
