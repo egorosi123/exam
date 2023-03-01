@@ -9,6 +9,6 @@ main()
     printf("Введите число x\n");
     scanf("%d", &x);
     y=pow(x, 2)+3;
-    printf("Выражение y=%f", y);
+    printf("Выражение y=%f", y/2);
     getchar();
 }
